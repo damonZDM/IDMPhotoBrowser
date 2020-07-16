@@ -5,6 +5,8 @@
 github "damonZDM/IDMPhotoBrowser"
 ```
 
-参考
-DACircularProgress https://github.com/danielamitay/DACircularProgress
-IDMPhotoBrowser https://github.com/thiagoperes/IDMPhotoBrowser
+# 参考
+## DACircularProgress
+https://github.com/danielamitay/DACircularProgress
+## IDMPhotoBrowser 
+https://github.com/thiagoperes/IDMPhotoBrowser
