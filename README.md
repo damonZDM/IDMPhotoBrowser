@@ -4,7 +4,7 @@
 # Carthage
 在Cartfile中添加下面语句
 ```
-github "damonZDM/IDMPhotoBrowser" ~> 1.0.1
+github "damonZDM/IDMPhotoBrowser" ~> 1.0.3
 ```
 在终端执行
 ```
