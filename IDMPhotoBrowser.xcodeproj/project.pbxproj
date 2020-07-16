@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		E40B2A7324BFF4DE00E5364A /* IDMPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7124BFF4DE00E5364A /* IDMPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A8C24BFF50D00E5364A /* IDMPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E40B2A7A24BFF50D00E5364A /* IDMPhotoBrowser.bundle */; };
-		E40B2A8D24BFF50D00E5364A /* IDMCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7B24BFF50D00E5364A /* IDMCaptionView.h */; };
+		E40B2A8D24BFF50D00E5364A /* IDMCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7B24BFF50D00E5364A /* IDMCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A8E24BFF50D00E5364A /* IDMPBLocalizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E40B2A7C24BFF50D00E5364A /* IDMPBLocalizations.bundle */; };
-		E40B2A8F24BFF50D00E5364A /* IDMZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7D24BFF50D00E5364A /* IDMZoomingScrollView.h */; };
-		E40B2A9024BFF50D00E5364A /* IDMPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7E24BFF50D00E5364A /* IDMPhoto.h */; };
-		E40B2A9124BFF50D00E5364A /* IDMPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7F24BFF50D00E5364A /* IDMPhotoBrowser.h */; };
+		E40B2A8F24BFF50D00E5364A /* IDMZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7D24BFF50D00E5364A /* IDMZoomingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40B2A9024BFF50D00E5364A /* IDMPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7E24BFF50D00E5364A /* IDMPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40B2A9124BFF50D00E5364A /* IDMPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7F24BFF50D00E5364A /* IDMPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A9224BFF50D00E5364A /* IDMTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8024BFF50D00E5364A /* IDMTapDetectingImageView.m */; };
 		E40B2A9324BFF50D00E5364A /* IDMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8124BFF50D00E5364A /* IDMUtils.m */; };
-		E40B2A9424BFF50D00E5364A /* IDMTapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8224BFF50D00E5364A /* IDMTapDetectingView.h */; };
+		E40B2A9424BFF50D00E5364A /* IDMTapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8224BFF50D00E5364A /* IDMTapDetectingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A9524BFF50D00E5364A /* IDMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8324BFF50D00E5364A /* IDMCaptionView.m */; };
 		E40B2A9624BFF50D00E5364A /* IDMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8424BFF50D00E5364A /* IDMPhoto.m */; };
 		E40B2A9724BFF50D00E5364A /* IDMZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8524BFF50D00E5364A /* IDMZoomingScrollView.m */; };
-		E40B2A9824BFF50D00E5364A /* IDMPhotoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8624BFF50D00E5364A /* IDMPhotoProtocol.h */; };
+		E40B2A9824BFF50D00E5364A /* IDMPhotoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8624BFF50D00E5364A /* IDMPhotoProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A9924BFF50D00E5364A /* IDMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8724BFF50D00E5364A /* IDMPhotoBrowser.m */; };
-		E40B2A9A24BFF50D00E5364A /* IDMPBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8824BFF50D00E5364A /* IDMPBConstants.h */; };
+		E40B2A9A24BFF50D00E5364A /* IDMPBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8824BFF50D00E5364A /* IDMPBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2A9B24BFF50D00E5364A /* IDMTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8924BFF50D00E5364A /* IDMTapDetectingView.m */; };
-		E40B2A9C24BFF50D00E5364A /* IDMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8A24BFF50D00E5364A /* IDMUtils.h */; };
-		E40B2A9D24BFF50D00E5364A /* IDMTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8B24BFF50D00E5364A /* IDMTapDetectingImageView.h */; };
+		E40B2A9C24BFF50D00E5364A /* IDMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8A24BFF50D00E5364A /* IDMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40B2A9D24BFF50D00E5364A /* IDMTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8B24BFF50D00E5364A /* IDMTapDetectingImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E40B2AA424BFF6DB00E5364A /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2AA024BFF6DB00E5364A /* DALabeledCircularProgressView.m */; };
 		E40B2AA524BFF6DB00E5364A /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2AA124BFF6DB00E5364A /* DACircularProgressView.m */; };
-		E40B2AA624BFF6DB00E5364A /* DALabeledCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA224BFF6DB00E5364A /* DALabeledCircularProgressView.h */; };
-		E40B2AA724BFF6DB00E5364A /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA324BFF6DB00E5364A /* DACircularProgressView.h */; };
+		E40B2AA624BFF6DB00E5364A /* DALabeledCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA224BFF6DB00E5364A /* DALabeledCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40B2AA724BFF6DB00E5364A /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA324BFF6DB00E5364A /* DACircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
