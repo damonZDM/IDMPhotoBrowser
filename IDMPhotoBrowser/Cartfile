@@ -1,0 +1,4 @@
+# 如果需要添加某一个类库，放开注释执行 carthage update --platform iOS，更新完请将注释加回去
+
+github "SDWebImage/SDWebImage"
+github "facebookarchive/pop"

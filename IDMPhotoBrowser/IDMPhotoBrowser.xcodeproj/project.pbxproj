@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40B2A7324BFF4DE00E5364A /* IDMPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7124BFF4DE00E5364A /* IDMPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40B2A8C24BFF50D00E5364A /* IDMPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E40B2A7A24BFF50D00E5364A /* IDMPhotoBrowser.bundle */; };
+		E40B2A8D24BFF50D00E5364A /* IDMCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7B24BFF50D00E5364A /* IDMCaptionView.h */; };
+		E40B2A8E24BFF50D00E5364A /* IDMPBLocalizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E40B2A7C24BFF50D00E5364A /* IDMPBLocalizations.bundle */; };
+		E40B2A8F24BFF50D00E5364A /* IDMZoomingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7D24BFF50D00E5364A /* IDMZoomingScrollView.h */; };
+		E40B2A9024BFF50D00E5364A /* IDMPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7E24BFF50D00E5364A /* IDMPhoto.h */; };
+		E40B2A9124BFF50D00E5364A /* IDMPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A7F24BFF50D00E5364A /* IDMPhotoBrowser.h */; };
+		E40B2A9224BFF50D00E5364A /* IDMTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8024BFF50D00E5364A /* IDMTapDetectingImageView.m */; };
+		E40B2A9324BFF50D00E5364A /* IDMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8124BFF50D00E5364A /* IDMUtils.m */; };
+		E40B2A9424BFF50D00E5364A /* IDMTapDetectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8224BFF50D00E5364A /* IDMTapDetectingView.h */; };
+		E40B2A9524BFF50D00E5364A /* IDMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8324BFF50D00E5364A /* IDMCaptionView.m */; };
+		E40B2A9624BFF50D00E5364A /* IDMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8424BFF50D00E5364A /* IDMPhoto.m */; };
+		E40B2A9724BFF50D00E5364A /* IDMZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8524BFF50D00E5364A /* IDMZoomingScrollView.m */; };
+		E40B2A9824BFF50D00E5364A /* IDMPhotoProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8624BFF50D00E5364A /* IDMPhotoProtocol.h */; };
+		E40B2A9924BFF50D00E5364A /* IDMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8724BFF50D00E5364A /* IDMPhotoBrowser.m */; };
+		E40B2A9A24BFF50D00E5364A /* IDMPBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8824BFF50D00E5364A /* IDMPBConstants.h */; };
+		E40B2A9B24BFF50D00E5364A /* IDMTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2A8924BFF50D00E5364A /* IDMTapDetectingView.m */; };
+		E40B2A9C24BFF50D00E5364A /* IDMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8A24BFF50D00E5364A /* IDMUtils.h */; };
+		E40B2A9D24BFF50D00E5364A /* IDMTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2A8B24BFF50D00E5364A /* IDMTapDetectingImageView.h */; };
+		E40B2AA424BFF6DB00E5364A /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2AA024BFF6DB00E5364A /* DALabeledCircularProgressView.m */; };
+		E40B2AA524BFF6DB00E5364A /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B2AA124BFF6DB00E5364A /* DACircularProgressView.m */; };
+		E40B2AA624BFF6DB00E5364A /* DALabeledCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA224BFF6DB00E5364A /* DALabeledCircularProgressView.h */; };
+		E40B2AA724BFF6DB00E5364A /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B2AA324BFF6DB00E5364A /* DACircularProgressView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E40B2A6E24BFF4DE00E5364A /* IDMPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDMPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40B2A7124BFF4DE00E5364A /* IDMPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMPhotoBrowser.h; sourceTree = "<group>"; };
+		E40B2A7224BFF4DE00E5364A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40B2A7A24BFF50D00E5364A /* IDMPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDMPhotoBrowser.bundle; sourceTree = "<group>"; };
+		E40B2A7B24BFF50D00E5364A /* IDMCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMCaptionView.h; sourceTree = "<group>"; };
+		E40B2A7C24BFF50D00E5364A /* IDMPBLocalizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDMPBLocalizations.bundle; sourceTree = "<group>"; };
+		E40B2A7D24BFF50D00E5364A /* IDMZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMZoomingScrollView.h; sourceTree = "<group>"; };
+		E40B2A7E24BFF50D00E5364A /* IDMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhoto.h; sourceTree = "<group>"; };
+		E40B2A7F24BFF50D00E5364A /* IDMPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhotoBrowser.h; sourceTree = "<group>"; };
+		E40B2A8024BFF50D00E5364A /* IDMTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTapDetectingImageView.m; sourceTree = "<group>"; };
+		E40B2A8124BFF50D00E5364A /* IDMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMUtils.m; sourceTree = "<group>"; };
+		E40B2A8224BFF50D00E5364A /* IDMTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMTapDetectingView.h; sourceTree = "<group>"; };
+		E40B2A8324BFF50D00E5364A /* IDMCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMCaptionView.m; sourceTree = "<group>"; };
+		E40B2A8424BFF50D00E5364A /* IDMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMPhoto.m; sourceTree = "<group>"; };
+		E40B2A8524BFF50D00E5364A /* IDMZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMZoomingScrollView.m; sourceTree = "<group>"; };
+		E40B2A8624BFF50D00E5364A /* IDMPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhotoProtocol.h; sourceTree = "<group>"; };
+		E40B2A8724BFF50D00E5364A /* IDMPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMPhotoBrowser.m; sourceTree = "<group>"; };
+		E40B2A8824BFF50D00E5364A /* IDMPBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPBConstants.h; sourceTree = "<group>"; };
+		E40B2A8924BFF50D00E5364A /* IDMTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTapDetectingView.m; sourceTree = "<group>"; };
+		E40B2A8A24BFF50D00E5364A /* IDMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMUtils.h; sourceTree = "<group>"; };
+		E40B2A8B24BFF50D00E5364A /* IDMTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMTapDetectingImageView.h; sourceTree = "<group>"; };
+		E40B2A9E24BFF55800E5364A /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E40B2AA024BFF6DB00E5364A /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		E40B2AA124BFF6DB00E5364A /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		E40B2AA224BFF6DB00E5364A /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		E40B2AA324BFF6DB00E5364A /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		E40B2AA924BFF70D00E5364A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		E40B2AAA24BFF70D00E5364A /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
+		E40B2AAB24BFF70D00E5364A /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
+		E40B2AB324BFF8E000E5364A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40B2A6B24BFF4DE00E5364A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40B2A6424BFF4DE00E5364A = {
+			isa = PBXGroup;
+			children = (
+				E40B2AB324BFF8E000E5364A /* .gitignore */,
+				E40B2A9E24BFF55800E5364A /* Cartfile */,
+				E40B2A7024BFF4DE00E5364A /* IDMPhotoBrowser */,
+				E40B2A6F24BFF4DE00E5364A /* Products */,
+				E40B2AA824BFF70D00E5364A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E40B2A6F24BFF4DE00E5364A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40B2A6E24BFF4DE00E5364A /* IDMPhotoBrowser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40B2A7024BFF4DE00E5364A /* IDMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E40B2A7124BFF4DE00E5364A /* IDMPhotoBrowser.h */,
+				E40B2A7924BFF50D00E5364A /* Classes */,
+				E40B2A9F24BFF6DB00E5364A /* DACircularProgress */,
+				E40B2A7224BFF4DE00E5364A /* Info.plist */,
+			);
+			path = IDMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E40B2A7924BFF50D00E5364A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E40B2A7A24BFF50D00E5364A /* IDMPhotoBrowser.bundle */,
+				E40B2A7B24BFF50D00E5364A /* IDMCaptionView.h */,
+				E40B2A7C24BFF50D00E5364A /* IDMPBLocalizations.bundle */,
+				E40B2A7D24BFF50D00E5364A /* IDMZoomingScrollView.h */,
+				E40B2A7E24BFF50D00E5364A /* IDMPhoto.h */,
+				E40B2A7F24BFF50D00E5364A /* IDMPhotoBrowser.h */,
+				E40B2A8024BFF50D00E5364A /* IDMTapDetectingImageView.m */,
+				E40B2A8124BFF50D00E5364A /* IDMUtils.m */,
+				E40B2A8224BFF50D00E5364A /* IDMTapDetectingView.h */,
+				E40B2A8324BFF50D00E5364A /* IDMCaptionView.m */,
+				E40B2A8424BFF50D00E5364A /* IDMPhoto.m */,
+				E40B2A8524BFF50D00E5364A /* IDMZoomingScrollView.m */,
+				E40B2A8624BFF50D00E5364A /* IDMPhotoProtocol.h */,
+				E40B2A8724BFF50D00E5364A /* IDMPhotoBrowser.m */,
+				E40B2A8824BFF50D00E5364A /* IDMPBConstants.h */,
+				E40B2A8924BFF50D00E5364A /* IDMTapDetectingView.m */,
+				E40B2A8A24BFF50D00E5364A /* IDMUtils.h */,
+				E40B2A8B24BFF50D00E5364A /* IDMTapDetectingImageView.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E40B2A9F24BFF6DB00E5364A /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E40B2AA024BFF6DB00E5364A /* DALabeledCircularProgressView.m */,
+				E40B2AA124BFF6DB00E5364A /* DACircularProgressView.m */,
+				E40B2AA224BFF6DB00E5364A /* DALabeledCircularProgressView.h */,
+				E40B2AA324BFF6DB00E5364A /* DACircularProgressView.h */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		E40B2AA824BFF70D00E5364A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40B2AAA24BFF70D00E5364A /* pop.framework */,
+				E40B2AA924BFF70D00E5364A /* SDWebImage.framework */,
+				E40B2AAB24BFF70D00E5364A /* SDWebImageMapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E40B2A6924BFF4DE00E5364A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B2AA724BFF6DB00E5364A /* DACircularProgressView.h in Headers */,
+				E40B2A9824BFF50D00E5364A /* IDMPhotoProtocol.h in Headers */,
+				E40B2AA624BFF6DB00E5364A /* DALabeledCircularProgressView.h in Headers */,
+				E40B2A9124BFF50D00E5364A /* IDMPhotoBrowser.h in Headers */,
+				E40B2A9D24BFF50D00E5364A /* IDMTapDetectingImageView.h in Headers */,
+				E40B2A9024BFF50D00E5364A /* IDMPhoto.h in Headers */,
+				E40B2A7324BFF4DE00E5364A /* IDMPhotoBrowser.h in Headers */,
+				E40B2A8F24BFF50D00E5364A /* IDMZoomingScrollView.h in Headers */,
+				E40B2A9C24BFF50D00E5364A /* IDMUtils.h in Headers */,
+				E40B2A9424BFF50D00E5364A /* IDMTapDetectingView.h in Headers */,
+				E40B2A8D24BFF50D00E5364A /* IDMCaptionView.h in Headers */,
+				E40B2A9A24BFF50D00E5364A /* IDMPBConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E40B2A6D24BFF4DE00E5364A /* IDMPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40B2A7624BFF4DE00E5364A /* Build configuration list for PBXNativeTarget "IDMPhotoBrowser" */;
+			buildPhases = (
+				E40B2A6924BFF4DE00E5364A /* Headers */,
+				E40B2A6A24BFF4DE00E5364A /* Sources */,
+				E40B2A6B24BFF4DE00E5364A /* Frameworks */,
+				E40B2A6C24BFF4DE00E5364A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDMPhotoBrowser;
+			productName = IDMPhotoBrowser;
+			productReference = E40B2A6E24BFF4DE00E5364A /* IDMPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40B2A6524BFF4DE00E5364A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = damon;
+				TargetAttributes = {
+					E40B2A6D24BFF4DE00E5364A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E40B2A6824BFF4DE00E5364A /* Build configuration list for PBXProject "IDMPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40B2A6424BFF4DE00E5364A;
+			productRefGroup = E40B2A6F24BFF4DE00E5364A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40B2A6D24BFF4DE00E5364A /* IDMPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40B2A6C24BFF4DE00E5364A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B2A8C24BFF50D00E5364A /* IDMPhotoBrowser.bundle in Resources */,
+				E40B2A8E24BFF50D00E5364A /* IDMPBLocalizations.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40B2A6A24BFF4DE00E5364A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B2A9724BFF50D00E5364A /* IDMZoomingScrollView.m in Sources */,
+				E40B2A9524BFF50D00E5364A /* IDMCaptionView.m in Sources */,
+				E40B2A9924BFF50D00E5364A /* IDMPhotoBrowser.m in Sources */,
+				E40B2A9624BFF50D00E5364A /* IDMPhoto.m in Sources */,
+				E40B2AA524BFF6DB00E5364A /* DACircularProgressView.m in Sources */,
+				E40B2A9324BFF50D00E5364A /* IDMUtils.m in Sources */,
+				E40B2AA424BFF6DB00E5364A /* DALabeledCircularProgressView.m in Sources */,
+				E40B2A9224BFF50D00E5364A /* IDMTapDetectingImageView.m in Sources */,
+				E40B2A9B24BFF50D00E5364A /* IDMTapDetectingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E40B2A7424BFF4DE00E5364A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E40B2A7524BFF4DE00E5364A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E40B2A7724BFF4DE00E5364A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = IDMPhotoBrowser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damon.IDMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40B2A7824BFF4DE00E5364A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = IDMPhotoBrowser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damon.IDMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40B2A6824BFF4DE00E5364A /* Build configuration list for PBXProject "IDMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40B2A7424BFF4DE00E5364A /* Debug */,
+				E40B2A7524BFF4DE00E5364A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40B2A7624BFF4DE00E5364A /* Build configuration list for PBXNativeTarget "IDMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40B2A7724BFF4DE00E5364A /* Debug */,
+				E40B2A7824BFF4DE00E5364A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40B2A6524BFF4DE00E5364A /* Project object */;
+}
