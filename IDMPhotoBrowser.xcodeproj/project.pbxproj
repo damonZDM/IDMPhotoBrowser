@@ -62,7 +62,7 @@
 		E40B2AA924BFF70D00E5364A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		E40B2AAA24BFF70D00E5364A /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
 		E40B2AAB24BFF70D00E5364A /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
-		E40B2AB324BFF8E000E5364A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		E40B2AB424BFFC7F00E5364A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		E40B2A6424BFF4DE00E5364A = {
 			isa = PBXGroup;
 			children = (
-				E40B2AB324BFF8E000E5364A /* .gitignore */,
+				E40B2AB424BFFC7F00E5364A /* .gitignore */,
 				E40B2A9E24BFF55800E5364A /* Cartfile */,
 				E40B2A7024BFF4DE00E5364A /* IDMPhotoBrowser */,
 				E40B2A6F24BFF4DE00E5364A /* Products */,
