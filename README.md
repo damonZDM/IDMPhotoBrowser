@@ -1,0 +1,2 @@
+# IDMPhotoBrowser
+打包IDMPhotoBrowser，使其支持Carthage
